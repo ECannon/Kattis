@@ -21,4 +21,4 @@ public class Tarifa
         
         System.out.println(total);
     }
-}
+} 
