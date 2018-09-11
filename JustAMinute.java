@@ -33,5 +33,5 @@ public class JustAMinute {
         {
             System.out.println(value);
         }
-    }
+    } 
 }
