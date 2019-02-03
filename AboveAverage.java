@@ -9,23 +9,23 @@ public class AboveAverage {
             
             int n = sc.nextInt();
             
-            for (int t = 0; t < n; t++) 
+            for (int i = 0; i < n; i++) 
             {
                 int students = sc.nextInt();
                 int[] ar1 = new int[students];
                 int total = 0;
-                for (int i = 0; i < students; i++) 
+                for (int j = 0; j < students; j++) 
                 {
-                    ar1[i] = sc.nextInt();
-                    total += ar1[i];
+                    ar1[j] = sc.nextInt();
+                    total += ar1[j];
                 }
                 double avg = total * 1.0 / students;
                 
                 int count = 0;
-                for (int i = 0; i < students; i++) 
+                for (int j = 0; j < students; j++) 
                 {
                     
-                    if(ar1[i] > avg)
+                    if(ar1[j] > avg)
                     {
                         count++;
                     }
