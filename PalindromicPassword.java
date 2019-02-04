@@ -27,12 +27,12 @@ public class PalindromicPassword
 						break;
 					}
 					
-				if(low != 100000) {
-					low--;
-				}
-				if(high != 999999 ) {
-					high++;
-				}
+					if(low != 100000) {
+						low--;
+					}
+					if(high != 999999 ) {
+						high++;
+					}
 				}
 			
 			
